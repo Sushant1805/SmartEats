@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*:hover{
+    cursor: pointer;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+
+.login-img { 
+    width: 50rem;
+    margin-left: 12rem;
+    background-color: #0C0D4D;
+}
+.login-img-img{
+    margin-top: 10rem;
+    width: 45rem;
+    height: 25rem;
+}
+
+
+
+.login{
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    width: 25rem;
+    font-family: public sans;
+    margin-left: 12em;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.top-text{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #0C0D4D;
+}
+
+.Welcome{
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.email-text,.pass-text,.name-text{
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-top: 1rem;
+}
+
+.login-email,.login-password,.signup-name{
+    padding-left: 1rem;
+    width: 22rem;
+    height: 2.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+}
+
+.remember-options{
+    display: flex;
+    width: 30rem;
+    margin-top: 1.5rem;
+}
+
+.check-label{
+    font-weight: 200;
+    font-size: 0.8rem;
+    margin-left: 0.8rem;
+}
+
+.forget-text{
+    font-weight: 600;
+    margin-left: 6rem;
+    font-size: 1rem;
+    color:   #0C0D4D;
+}
+
+.sign-in-btn{
+    width: 22rem;
+    height: 2.5rem;
+    border: none;
+    background-color: #0C0D4D;
+    color: white;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    font-weight: 700px;
+}
+
+.continue-with{
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.btn-images{
+    width: 1rem;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.other-btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns{
+    border: 1px solid #ddd;
+    background-color:  hsl(0, 0%, 100%);
+    height: 3em;
+    
+    width: 10em;
+    margin: 2rem 0 0 2rem;
+
+}
+
+.not-reg{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.tagline{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 4rem;
+    margin-left: 10rem;
+}
+
+.tag-1{
+    font-weight: 700;
+    margin-left: 6rem;
+}
+.tag-2{
+    font-weight: 300;
+}

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: dm sans;
+}
+
+.Preference-form{
+    width: 45rem;
+    height: 45rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2rem;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 2rem;
+    align-self: center;
+}
+
+.main {
+    background-color: #0C0D4D;
+    color: white;
+    border: none;
+    padding-top: 80px; /* Adjust this to match your navbar height */
+}

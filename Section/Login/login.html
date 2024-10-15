@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="login.js" type="module"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="login">
+        
+            <p class="top-text">Sign In to your account</p>
+            <h1 class="Welcome">Welcome Back! Please enter your details</h1>
+            <p class="email-text">Email address</p>
+            <input type="email" class="login-email" id="login-email">
+            <h4 class="pass-text">Password</h4>
+            <input type="password" class="login-password"id="login-password">
+            <div class="remember-options">
+                <input type="checkbox" id="remember-check" value="remember me">
+                <p class="check-label" for="remember-check">Remember me</p>
+                <p class="forget-text">Forgot Password?</p>
+            </div>
+            <button class="sign-in-btn" id="login-submit">Sign In</button>
+            <div class="not-reg">
+                <p style="font-weight: 200;">Not registered yet?  </p>
+                <p style="margin-left: 1rem; color: #0C0D4D; font-weight: 600;" onclick="window.location.href='/Section/SignUp/SignUp.html'">Create an Account</p>
+            </div>
+          
+            <p class="continue-with">————  or continue with ————</p>
+            <div class="other-btn">
+                <button class="btns"><img class="btn-images" src="https://th.bing.com/th/id/OIP.Fll7WPtNT6jrz1oBP8GbCgHaHj?rs=1&pid=ImgDetMain" alt="">Google</button>
+                <button class="btns"><img class="btn-images" src="https://th.bing.com/th/id/OIP.RgxiLMdnxNBA5Q17hnJ2xAHaEK?rs=1&pid=ImgDetMain" alt="">Facebook</button>
+            </div>
+          
+        </div>
+        <div class="login-img">
+         <img class="login-img-img" src="login-img2.svg" alt="">
+         <div class="tagline">
+            <p class="tag-1">Join the Future of your health journey. </p>
+         <p class="tag-2">Simplify, personalize, and thrive with our tailored nutrition platform.</p>
+         </div>
+         
+        </div>
+        
+    </div>
+</body>
+</html>

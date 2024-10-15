@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personalised Diet Plans</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link href="PersonalisedDiet.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+  </head>
+  <body>
+    <section class="main">
+
+      <div class="navbar">
+        <nav >
+          <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+   <a href="/index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+       <p style="color:#0C0D4D; font-weight: 600; font-size: 1.2rem; font-family: Inter;">SmartEats</p>
+       <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+   </a>
+   <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+       <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onclick="window.location.href='/Section/Login/login.html'">Get started</button>
+       <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+         <span class="sr-only">Open main menu</span>
+         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+         </svg>
+     </button>
+   </div>
+   
+   <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+     <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+       <li>
+         <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+       </li>
+       <li>
+         <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+       </li>
+       <li>
+         <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+       </li>
+       <li>
+         <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+       </li>
+     </ul>
+   </div>
+   </div>
+ </nav>
+         </nav>
+       </div>
+      <div class="Preference-form">
+        <h1 style="font-weight: 800;font-size: 2rem;padding-top: 2rem;">Get Personalised Diet</h1>
+        <p style="color: gray;margin-bottom: 1rem;">Please Provide your Information:</p>
+        <legend class="sr-only"></legend>
+        <!--Goal-->
+        <div>
+          <p style="font-weight: 800; margin-bottom: 0.5rem;">Goal</p>
+          <div class="flex items-center mb-2">
+            <input id="default-radio-1" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+            <label for="default-radio-1" class="ms-2 text-sm font-medium text-black-900 dark:text-gray-300">Weight Loss</label>
+          </div>
+          <div class="flex items-center mb-2">
+            <input checked id="default-radio-2" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+            <label for="default-radio-2" class="ms-2 text-sm font-medium text-black-900 dark:text-gray-300">Muscle Gain</label>
+          </div>
+          <div class="flex items-center mb-2">
+            <input checked id="default-radio-2" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+            <label for="default-radio-2" class="ms-2 text-sm font-medium text-black-900 dark:text-gray-300">Maintain Weight Diet</label>
+          </div>
+          
+                
+        </div>
+        <!--Preference-->
+        <div>
+          <p style="font-weight: 800;margin-bottom: 0.5rem;">Preference</p>
+          <div class="flex items-center mb-2">
+            <input id="default-radio-1" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+            <label for="default-radio-1" class="ms-2 text-sm font-medium text-black-900 dark:text-gray-300">Vegetarian</label>
+          </div>
+          <div class="flex items-center mb-2">
+            <input id="default-radio-1" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+            <label for="default-radio-1" class="ms-2 text-sm font-medium text-black-900 dark:text-gray-300">Non Vegetarian</label>
+          </div>
+          <div class="flex items-center mb-2">
+            <input checked id="default-radio-2" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+            <label for="default-radio-2" class="ms-2 text-sm font-medium text-black-900 dark:text-gray-300">Vegan</label>
+          </div>
+          <div class="flex items-center mb-2">
+            <input checked id="default-radio-2" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+            <label for="default-radio-2" class="ms-2 text-sm font-medium text-black-900 dark:text-gray-300">Keto</label>
+          </div>
+        </div>
+         <!--Workout Frequency-->
+         <div>
+          <p style="font-weight: 800;margin-bottom: 0.5rem;">Workout Frequency</p>
+          <div class="flex items-center mb-2">
+            <input id="default-radio-1" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+            <label for="default-radio-1" class="ms-2 text-sm font-medium text-black-900 dark:text-gray-300">No Workout</label>
+          </div>
+          <div class="flex items-center mb-2">
+            <input id="default-radio-1" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+            <label for="default-radio-1" class="ms-2 text-sm font-medium text-black-900 dark:text-gray-300">2-4 Times a Week (Low - Medium Intensity)</label>
+          </div>
+          <div class="flex items-center mb-2">
+            <input checked id="default-radio-2" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+            <label for="default-radio-2" class="ms-2 text-sm font-medium text-black-900 dark:text-gray-300">4-6 Times a Week (Medium - High Intensity)</label>
+          </div>
+        </div>
+        <!--Personal Information-->
+        <div>
+          <p style="font-weight: 800;margin-bottom: 0.5rem;">Personal Information</p>
+  
+          <form class="max-w-sm mx-auto">
+            <label
+              for="number-input"
+              class="block mb-2 text-sm font-medium text-black-900 dark:text-white"
+              >Age:</label
+            >
+            <input
+              type="number"
+              id="number-input"
+              aria-describedby="helper-text-explanation"
+              class="bg-gray-50 border border-gray-300 text-black-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+            />
+  
+            <label
+              for="number-input"
+              class="block mb-2 text-sm font-medium text-black-900 dark:text-white"
+              >Height (cm):</label
+            >
+            <input
+              type="number"
+              id="number-input"
+              aria-describedby="helper-text-explanation"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+            />
+  
+            <label
+              for="number-input"
+              class="block mb-2 text-sm font-medium text-black-900 dark:text-white"
+              >Weight (kg):</label
+            >
+            <input
+              type="number"
+              id="number-input"
+              aria-describedby="helper-text-explanation"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+            />
+          </form>
+        </div>
+       
+        <!--Button-->
+        <button
+          type="button"
+          class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+        >
+          Get Diet Plan
+        </button>
+      </div>
+    </section>
+    
+  </body>
+</html>
