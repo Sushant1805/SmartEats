@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Diet Plan</title>
+</head>
+<body>
+    <div id="diet-plan">
+        <h3>Your Personalized Diet Plan</h3>
+        <p id="breakfast"></p>
+        <p id="lunch"></p>
+        <p id="dinner"></p>
+        <p id="notes"></p>
+    </div>
+
+    <script>
+        // Fetch diet plan data from localStorage and display it
+        const data = JSON.parse(localStorage.getItem("dietPlanData"));
+        if (data) {
+            document.getElementById("breakfast").textContent = `Breakfast: ${data.breakfast}`;
+            document.getElementById("lunch").textContent = `Lunch: ${data.lunch}`;
+            document.getElementById("dinner").textContent = `Dinner: ${data.dinner}`;
+            document.getElementById("notes").textContent = `Notes: ${data.notes}`;
+        } else {
+            document.getElementById("diet-plan").innerHTML = "<p>No diet plan data available.</p>";
+        }
+    </script>
+</body>
+</html>

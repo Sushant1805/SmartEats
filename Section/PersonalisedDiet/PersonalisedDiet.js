@@ -51,10 +51,21 @@ document.addEventListener("DOMContentLoaded", function() {
             valid = false;
         }
 
-        // If valid, you can proceed with form submission or further processing
+        // If valid, proceed to save data and redirect
         if (valid) {
-            alert("Form is valid! Proceeding to get the diet plan.");
-            // Here you can add code to submit the form or process the input data
+            // Mock diet plan data from AI or backend response
+            const dietPlanData = {
+                breakfast: "Oatmeal with fruits",
+                lunch: "Grilled chicken salad",
+                dinner: "Steamed vegetables with quinoa",
+                notes: "Stay hydrated and avoid sugary drinks."
+            };
+
+            // Store diet plan data in localStorage
+            localStorage.setItem("dietPlanData", JSON.stringify(dietPlanData));
+
+            // Redirect to the new page
+            window.location.href = "dietPlan.html";
         }
     });
 });
